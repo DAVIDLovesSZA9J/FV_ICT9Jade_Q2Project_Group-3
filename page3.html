@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enroll</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/png" href="OBMC Logo (Compact).png">
+    
+    <style>
+        
+        body {
+            font-family: 'Poppins';
+            background: 
+            linear-gradient(rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.55)),
+            url('https://obmontessori.orangeapps.ph/landing/obmontessori/images/Las%20Pinas%20Facade.jpg');
+            background-size: cover;
+            background-repeat: no-repeat;            
+            backdrop-filter: blur(3px);
+            min-height: 100vh;
+            padding-bottom: 40px;
+        }
+        .navbar-toggler {
+          display: none; 
+        }
+        .overlay-box,
+        .enroll-form {
+            background: rgba(40, 40, 40, 0.78);
+            border-radius: 15px;
+            padding: 45px;
+            box-shadow: 0 6px 18px rgba(0, 0, 0, 0.35);
+            color: white;
+        }
+
+        .nav-link:hover {
+            color: #ffc107 !important;
+            transition: .3s;
+        }
+
+        blockquote,
+        .formwrapper {
+            border-left: 4px solid #ffc107;
+            padding-left: 15px;
+        }
+
+        button[type="submit"] {
+            width: 40%;
+            height: 50px;
+            border-radius: 8px;
+            padding: 7px;
+            margin: 0 auto;
+            background: #ffc107;
+            color: black;
+            display: block;
+        }
+
+        li img {
+          width: 40px;
+          margin-right: 15px;
+        }
+    </style>
+</head>
+
+<body>
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark shadow-sm">
+  <div class="container-fluid">
+    <div class="navbar-collapse">
+      <ul class="navbar-nav me-auto">
+        <li class="nav-item"><a class="" href="index.html"><img src="OBMC Logo (Compact).png" alt=""></a></li>
+        <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="page2.html">Courses</a></li>
+        <li class="nav-item"><a class="nav-link active" href="page3.html">Enroll</a></li>
+        <li class="nav-item"><a class="nav-link" href="page4.html">Contact Us</a></li>
+        <li class="nav-item"><a class="nav-link" href="page5.html">About the Group</a></li>
+      </ul>
+
+      <form class="d-flex">
+        <input class="form-control me-2" type="text" placeholder="Search">
+        <button class="btn btn-warning text-dark" type="button">Search</button>
+      </form>
+    </div>
+  </div>
+</nav>
+
+<!-- HEADER BOX -->
+ <div class="container mt-5">
+    <div class="overlay-box mb-4">
+        <h1 class="fw-bold mb-3">Enroll</h1>
+        <blockquote class="lead">
+
+
+<div class="container mt-5">
+    <div class="overlay-box mb-4">
+        <h1 class="fw-bold mb-3">Now open for A.Y. 2026-2027!</h1>
+
+        <blockquote class="lead">
+            <p>At Operation Brotherhood Montessori Center, we are all set to help you with a smooth enrollment trial for you and your child. Thank you for considering our school for your child's education. Our application process is now online for your convenience. Please considering completing this enrollment form.</p>
+        </blockquote>
+    </div>
+    
+
+    <!-- FORM -->
+    <form class="enroll-form">
+
+        <h1 class="fw-bold mb-4">Enrollment Form</h1>
+
+        <div class="formwrapper">
+
+            <!-- STUDENT INFO -->
+            <h4 class="fw-light mb-3">Student Information</h4>
+
+            <div class="row">
+                <div class="col-md-6 mb-3">
+                    <label>First Name</label><span class="description required"> <small>(required)</small></span>
+                    <input type="text" class="form-control" placeholder="First Name" required>
+                </div>
+                
+                <div class="col-md-6 mb-3">
+                    <label>Last Name</label><span class="description required"> <small>(required)</small></span>
+                    <input type="text" class="form-control" placeholder="Last Name" required>
+                </div>
+            </div>
+
+            <div class="row mb-5">
+                <div class="col-md-4 mb-3">
+                    <label>Birth Date</label><span class="description required"> <small>(required)</small></span>
+                    <div class="input-group">
+                        <input type="text" class="form-control" placeholder="dd/mm/yyyy" required>
+                        <span class="input-group-text"><i class="bi bi-calendar"></i></span>
+                    </div>
+                </div>
+
+                <div class="col-md-4 mb-3">
+                    <label>Gender</label><span class="description required"> <small> (required) </small></span>
+                    <select class="form-select" required>
+                        <option disabled selected>Select...</option>
+                        <option>Male</option>
+                        <option>Female</option>
+                    </select>
+                </div>
+
+                <div class="col-md-4">
+                    <label>Inquiry </label><span class="description required"> <small> (required) </small></span>
+                    <select class="form-select" required>
+                        <option disabled selected>Select an option...</option>
+                        <option>Free Trial</option>
+                        <option>Junior Casa Admission</option>
+                        <option>Junior Advanced Casa Admission</option>
+                        <option>Grade 1 Admission</option>
+                        <option>Grade 2 Admission</option>
+                        <option>Grade 3 Admission</option>
+                        <option>Grade 4 Admission</option>
+                        <option>Grade 5 Admission</option>
+                        <option>Grade 6 Admission</option>
+                        <option>Grade 7 Admission</option>
+                        <option>Grade 8 Admission</option>
+                        <option>Grade 9 Admission</option>
+                        <option>Grade 10 Admission</option>
+                        <option>Grade 11 Admission</option>
+                        <option>Other Concerns</option>
+                    </select>
+                </div>
+            </div>
+
+            <!-- CONTACT -->
+            <h4 class="fw-light mb-3">Contact Details</h4>
+
+            <div class="mb-4">
+                <label>Email Address</label><span class="description required"> <small>(required)</small></span>
+                <input type="email" class="form-control" placeholder="name@email.com" required>
+            </div>
+
+            <div class="mb-5">
+                <label>Contact Number</label><span class="description required"> <small>(required)</small></span>
+                <input type="tel" class="form-control" placeholder="0000-000-0000" required>
+            </div>
+
+            <div class="">
+                <label>Message</label>
+                <br>
+                <textarea class="rounded-textarea" rows="6" cols="55" aria-invalid="false" id="textarea" placeholder="Enter text here..." placeholder style="height: 150px; width: 500px;"></textarea>
+
+            </div>
+
+            <br>
+
+            <!-- OTHER -->
+            <h4 class="fw-light mb-3">Other Information</h4>
+
+            <label>Mode of Learning</label><br>
+            <input type="radio" name="mode" id="online" required>
+            <label for="online">Online</label><br>
+
+            <input type="radio" name="mode" id="f2f"required>
+            <label for="f2f">Face-to-Face</label><br><br>
+            
+            <input type="checkbox" id="confirm" required>
+            <label for="confirm">I confirm that the information provided is true and accurate.</label>
+        </div>
+
+        <button type="submit" class="mt-4">Submit Form</button>
+    </form>
+</div>
+
+</body>
+</html>

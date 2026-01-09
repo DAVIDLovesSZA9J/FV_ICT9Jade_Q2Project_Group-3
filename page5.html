@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/png" href="OBMC Logo (Compact).png">
+    
+    <style>
+        body {
+            font-family: 'Poppins';
+            background-image: url('https://images.summitmedia-digital.com/sap/images/2024/10/15/obmc-article-image-insert-3-1-1728968458.png');
+            background-size: cover;
+            background-repeat: no-repeat;
+            backdrop-filter: blur(3px);
+            min-height: 100vh;
+            padding-bottom: 40px;
+        }
+
+        .overlay-box {
+            background: rgba(40, 40, 40, 0.78);
+            border-radius: 15px;
+            padding: 45px;
+            box-shadow: 0 6px 18px rgba(0,0,0,0.35);
+            margin-bottom: 30px;
+        }
+
+
+        .nav-link:hover {
+            color: #ffd37a !important;
+            transition: 0.3s;
+        }
+
+        blockquote {
+            border-left: 4px solid #ffc107;
+            padding-left: 15px;
+        }
+
+        li img {
+          width: 40px;
+          margin-right: 15px;
+        }
+
+        .student-card {
+            position: relative;
+            background: rgba(40, 40, 40, 0.78);
+            padding: 22px;
+            border-radius: 18px;
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.25);
+            transition: all 0.35s ease;
+            height: 100%;
+            overflow: hidden;
+        }
+
+        .student-card::before {
+            content: "";
+            position: absolute;
+            left: 0;
+            top: 20px;
+            height: calc(100% - 40px);
+            width: 4px;
+            border-radius: 4px;
+        }
+
+        .student-card:hover {
+            transform: translateY(-8px);
+            box-shadow: 0 18px 40px rgba(0, 0, 0, 0.45);
+        }
+
+        .student-card img {
+            margin: 0 auto;
+            display: block;
+            width: 200px;
+            height: 200px;
+            object-fit: cover;
+            border-radius: 100%;
+            transition: transform 0.4s ease;
+        }
+
+        .student-card:hover img {
+            transform: scale(1.05);
+        }
+
+        .student-name {
+            text-align: center;
+            margin-top: 16px;
+            font-size: 18px;
+            font-weight: 700;
+            color: #ffffff;
+        }
+
+        .student-desc {
+            text-align: center;
+            font-size: 14px;
+            line-height: 1.6;
+            color: #ffffff;
+            margin-top: 6px;
+        }
+
+
+
+    </style>
+</head>
+
+<body>
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark shadow-sm">
+  <div class="container-fluid">
+    <div class="navbar-collapse">
+      <ul class="navbar-nav me-auto">
+        <li class="nav-item"><a class="" href="index.html"><img src="OBMC Logo (Compact).png" alt=""></a></li>
+        <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="page2.html">Courses</a></li>
+        <li class="nav-item"><a class="nav-link" href="page3.html">Enroll</a></li>
+        <li class="nav-item"><a class="nav-link" href="page4.html">Contact Us</a></li>
+        <li class="nav-item"><a class="nav-link active" href="page5.html">About the Group</a></li>
+      </ul>
+
+      <form class="d-flex">
+        <input class="form-control me-2" type="text" placeholder="Search">
+        <button class="btn btn-warning text-dark" type="button">Search</button>
+      </form>
+    </div>
+  </div>
+</nav>
+<div class="container mt-5">
+    <div class="overlay-box text-light">
+        <h1 class="fw-bold mb-3">About Us: Group 3</h1>
+
+
+        <blockquote class="lead">
+          <p>Group 3 worked together in planning, organizing, and finishing the tasks for this project. Each member contributed through ideas to ensure the overall result was clear, organized, and executed on time.</p>
+        </blockquote>
+    </div>
+</div>
+
+<div class="row g-3 justify-content-center">
+    <div class="col-lg-3 col-md-6">
+        <div class="student-card">
+            <img src="https://media.discordapp.net/attachments/1145982913536598066/1459114109688877204/29A338A8-C373-4E60-948C-9E70D9A156D5.jpg?ex=69621968&is=6960c7e8&hm=5a5fa80412c6c211254dfb38a488da6e525ce90b5d5a6a6b5666485a74df9ca4&=&format=webp&width=770&height=770" alt="">
+            <div class="student-name">Andrik Carlos David</div>
+            <div class="student-desc">Leader & Worked on: Homepage</div>
+        </div>
+    </div>
+
+    <div class="col-lg-3 col-md-6">
+        <div class="student-card">
+            <img src="https://lh3.googleusercontent.com/a-/ALV-UjW52ryHqy5DFI-bQuwJ4Kx5Qadkwm5SrSGOpbpnSjroi8Aet8s=s300-p-k-rw-no" alt="">
+            <div class="student-name">Ghonn Gavin Taguiga</div>
+            <div class="student-desc">Worked on: About Us Page</div>
+        </div>
+    </div>
+
+    <div class="col-lg-3 col-md-6">
+        <div class="student-card">
+            <img src="https://lh3.googleusercontent.com/a-/ALV-UjUiqqioujIMQInU_XpZrQQQ5iciOqdTTpOdRFfrB-LkRsVwbFWb=s300-p-k-rw-no" alt="">
+            <div class="student-name">Prince Jeal Villanueva</div>
+            <div class="student-desc">Worked on: Enrollment Page</div>
+        </div>
+    </div>
+</div>
+
+<!-- ROW 2 -->
+<div class="row g-3 justify-content-center mt-3">
+    <div class="col-lg-3 col-md-6">
+        <div class="student-card">
+            <img src="https://lh3.googleusercontent.com/a-/ALV-UjWYqa4lMNlOPkkE6Ug6GGid8VuAVuiIVuTxqcX489oUVag-JxZ7=s300-p-k-rw-no" alt="">
+            <div class="student-name">Georgina Florence Banal</div>
+            <div class="student-desc">Worked on: Contact Us Page</div>
+        </div>
+    </div>
+
+    <div class="col-lg-3 col-md-6">
+        <div class="student-card">
+            <img src="https://lh3.googleusercontent.com/a-/ALV-UjW7FQcw8oo-Y-4ElLYrBHob2mQxe2NEk2pigxssfmcRdplRq_5H=s300-p-k-rw-no" alt="">
+            <div class="student-name">Maryonne Gerelle Valera</div>
+            <div class="student-desc">Worked on: Courses Page</div>
+        </div>
+    </div>
+
+    <div class="col-lg-3 col-md-6">
+        <div class="student-card">
+            <img src="https://lh3.googleusercontent.com/a-/ALV-UjWFeMGyl7jwj4Bywo_-0KQzTD2RN5c-URiymeS_Phpo1UKoovG8=s300-p-k-rw-no" alt="">
+            <div class="student-name">Erin Kendall Rioflorido</div>
+            <div class="student-desc">Worked on: About Us Page</div>
+        </div>
+    </div>
+</div>
+
+</div>
+
+</body>
+</html>
